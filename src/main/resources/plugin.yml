@@ -1,6 +1,6 @@
 name: StatsBridge
 version: 1.0
-description: A plugin to fetch user statistics from JohnyMuffin's statistics API
+description: A plugin to fetch user statistics from a statistics API
 author: Garsooon
 main: org.garsooon.jstatsbridge.UserStatsPlugin
 api-version: 1.7.3
