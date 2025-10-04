@@ -1,0 +1,19 @@
+name: StatsBridge
+version: 1.0
+description: A plugin to fetch user statistics from JohnyMuffin's statistics API
+author: Garsooon
+main: org.garsooon.jstatsbridge.UserStatsPlugin
+api-version: 1.7.3
+
+commands:
+  stats:
+    description: Get statistics for a player
+    usage: /stats [player]
+    aliases: mystats
+    permission: userstats.view
+    permission-message: You don't have permission to view stats
+
+permissions:
+  userstats.view:
+    description: Allow viewing players' statistics
+    default: op
